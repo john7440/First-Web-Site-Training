@@ -295,8 +295,26 @@ header{
     font-family: sans-serif;
     font-size: 18px;
 }
-
+ /*---------------------------------------------------------------------------------------------*/
 /* Responsive */
+@media (max-width: 900px){
+    .navbar{
+        position: relative;
+    }
+
+    .nav-toggle{
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+    }
+    /* caher les lien et le bouton contact */
+    .nav-links,
+    .btn-contact{
+        display: none;
+    }
+}
+
+
 @media (max-width: 1024px){
   .cards-section{
     grid-template-columns: 1fr;
