@@ -312,6 +312,14 @@ header{
     line-height: 1.05;
     text-align: center;
     margin-bottom: 36p;
+    color: black;
+}
+
+.services-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: stretch;
 }
 
  /*---------------------------------------------------------------------------------------------*/
