@@ -178,3 +178,14 @@ header{
     max-width: 520px;
     margin-bottom: 18px;
 }
+
+.card-large p{
+  opacity: .95;
+  max-width: 420px;
+}
+
+.card-avatars {
+    margin-top: auto;
+    display: flex;
+    gap: 14px;
+}
