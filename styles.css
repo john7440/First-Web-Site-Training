@@ -1,6 +1,6 @@
 :root {
     --color-primary: #678fad;
-    --color-secondary: #c0b392;
+    --color-secondary: #d4c19b;
     --color-dark: #2c2c2c;
     --color-light: #f5f5f5;
     --color-white: #ffffff;
@@ -207,10 +207,14 @@ header{
     border: none;
     font-family: "Unbounded", sans-serif;
     cursor: pointer;
-    background:var(--color-secondary);
+    background: var(--color-secondary);
     color: black;
     font-weight: 400;
     font-size: 17px;
+}
+
+.btn-buy:hover{
+    background: #baa988;
 }
 
 .cards-right {
@@ -229,4 +233,10 @@ header{
   height: 100%;
   object-fit: cover;
   display: block;
+}
+
+.card-stats{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
 }
