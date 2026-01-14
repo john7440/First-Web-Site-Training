@@ -322,6 +322,13 @@ header{
     align-items: stretch;
 }
 
+.services-panel{
+    background: #b89e9f;
+    border-radius: 40px;
+    padding: 26px 26px;
+    color: #e6e6e6;
+}
+
  /*---------------------------------------------------------------------------------------------*/
 /* Responsive */
 @media (max-width: 900px){
