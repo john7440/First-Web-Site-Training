@@ -1,5 +1,5 @@
 :root {
-    --color-primary: #678fad;
+    --color-primary: #6f95b8;
     --color-secondary: #d4c19b;
     --color-dark: #2c2c2c;
     --color-light: #f5f5f5;
@@ -247,4 +247,14 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.stat-blue{
+    background: var(--color-primary);
+    color: white;
+}
+
+.stat-beige{
+    background: var(--color-secondary);
+    color: black;
 }
