@@ -46,7 +46,7 @@ header{
 }
 
 .logo img{
-    height: 50px;
+    height: 60px;
 }
 
 .nav-links {
@@ -77,9 +77,14 @@ header{
     background: transparent;
     border: 2px solid #dcdcdc;
     border-radius: 999px;
-    padding: 10px 14 px;
+    padding: 20px 20px;
     font-family: "Unbounded", sans-serif;
     cursor: pointer;
+}
+
+.nav-toggle:hover{
+    color: #eee;
+    background-color: #6f95b8;
 }
 
 .btn-contact {
@@ -311,7 +316,7 @@ header{
     font-weight: 700;
     line-height: 1.05;
     text-align: center;
-    margin-bottom: 36p;
+    margin-bottom: 36px;
     color: black;
 }
 
@@ -466,6 +471,18 @@ header{
   }
   .cards-right{
     grid-template-rows: 240px auto;
+  }
+}
+
+@media (max-width: 1180px){
+  .services-grid{
+    grid-template-columns: 1fr;
+  }
+
+  .services-panel,
+  .services-image{
+    height: auto;
+    min-height: 320px;
   }
 }
 
