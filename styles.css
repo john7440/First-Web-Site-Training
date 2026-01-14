@@ -138,6 +138,7 @@ header{
     object-fit: cover;
 }
 
+/*les cartes*/
 .cards-section {
     max-width: 1200px;
     margin: 0 auto;
@@ -146,4 +147,25 @@ header{
     grid-template-columns: 1.05fr 0.95fr;
     gap: 30px;
     align-items: stretch;
+}
+
+.card,
+.stat-card {
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+/*la carte de gauche */
+.card-large {
+    position: relative;
+    min-height: 520px;
+    color: var(--color-white);
+    padding: 56px;
+    display: flex;
+    flex-direction: column;
+    background:
+    linear-gradient(120deg, rgba(11, 42, 63, 0.65), rgba(33, 38, 40, 0)),
+    url("images/background1.jpg");
+    background-size: cover;
+    background-position: center;
 }
