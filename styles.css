@@ -326,7 +326,7 @@ header{
     background: #b89e9f;
     border-radius: 40px;
     padding: 26px 26px;
-    color: #e6e6e6;
+    color: #ffffff;
 }
 
 .service-item{
@@ -343,6 +343,21 @@ header{
   padding-bottom: 6px;
 }
 
+.service-title{
+    font-family: "Unbounded", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.service-title::-webkit-details-marker{
+  display: none;
+}
 
  /*---------------------------------------------------------------------------------------------*/
 /* Responsive */
