@@ -72,6 +72,16 @@ header{
     color: var(--color-primary);
 }
 
+.nav-toggle {
+    display: none;
+    background: transparent;
+    border: 2px solid #dcdcdc;
+    border-radius: 999px;
+    padding: 10px 14 px;
+    font-family: "Unbounded", sans-serif;
+    cursor: pointer;
+}
+
 .btn-contact {
     font-family: "Unbounded", sans-serif;
     background-color: var(--color-primary);
