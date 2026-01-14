@@ -240,3 +240,11 @@ header{
     grid-template-columns: 1fr 1fr;
     gap: 30px;
 }
+
+.stat-card{
+    padding: 44px 34px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
