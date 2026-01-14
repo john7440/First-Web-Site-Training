@@ -305,7 +305,14 @@ header{
     padding: 40px 40px 80px;
 }
 
-
+.section-title{
+    font-family: "Unbounded", sans-serif;
+    font-size: clamp(2rem, 2.5vw, 3.6rem);
+    font-weight: 700;
+    line-height: 1.05;
+    text-align: center;
+    margin-bottom: 36p;
+}
 
  /*---------------------------------------------------------------------------------------------*/
 /* Responsive */
