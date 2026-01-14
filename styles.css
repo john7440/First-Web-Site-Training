@@ -359,6 +359,13 @@ header{
   display: none;
 }
 
+.service-title::after{
+    content: "↗";
+    font-size: 25px;
+    opacity: .9;
+    transform: translateY(-1px);
+}
+
  /*---------------------------------------------------------------------------------------------*/
 /* Responsive */
 @media (max-width: 900px){
