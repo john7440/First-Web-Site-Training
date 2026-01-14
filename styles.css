@@ -169,3 +169,12 @@ header{
     background-size: cover;
     background-position: center;
 }
+
+.card-large h2{
+    font-family: "Unbounded", sans-serif;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 1.2;
+    max-width: 520px;
+    margin-bottom: 18px;
+}
