@@ -217,6 +217,7 @@ header{
     background: #baa988;
 }
 
+/*carte droite*/
 .cards-right {
     display: grid;
     grid-template-rows: 260px 1fr;
@@ -242,11 +243,10 @@ header{
 }
 
 .stat-card{
-    padding: 44px 34px;
-    min-height: 300px;
+    padding: 30px;
+    min-height: 320px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .stat-blue{
@@ -257,4 +257,18 @@ header{
 .stat-beige{
     background: var(--color-secondary);
     color: black;
+}
+
+.stat-card h3{
+    font-family: "Unbounded", sans-serif;
+    font-size: 36px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.stat-card h4{
+    font-family: "Unbounded", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 20px;
 }
