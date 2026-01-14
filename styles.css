@@ -23,6 +23,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: var(--color-dark);
     line-height: 1.6;
+    background: var(--color-white);
 }
 
 /* Header et navigation */
@@ -109,10 +110,9 @@ header{
     font-weight: 400;
     line-height: 1.1;
     color: black;
+
     display: table;
     text-align: left;
-    width: 675px;
-    height: 132px;
 }
 
 .hero-subtitle {
@@ -134,7 +134,7 @@ header{
 .circle-img {
     width: 120px;
     height: 120px;
-    border-radius: 60%;
+    border-radius: 50%;
     object-fit: cover;
 }
 
@@ -159,7 +159,9 @@ header{
 /*la carte de gauche */
 .card-large {
     position: relative;
-    min-height: 520px;
+    min-height: unset;
+    min-height: 420px;
+    aspect-ratio: 1 / 1;
     color: var(--color-white);
     padding: 30px;
     display: flex;
@@ -187,7 +189,7 @@ header{
 }
 
 .card-avatars {
-    margin-top: 20px;
+    margin-top: 28px;
     display: flex;
     align-items: center;
     gap: 14px;
@@ -195,7 +197,6 @@ header{
 }
 
 .card-avatars img{
-    margin-top: 8px;
     width: 82px;
     height: 82px;
     border-radius: 999px;
@@ -203,7 +204,7 @@ header{
 }
 
 .btn-buy {
-    margin-top: 170px;
+    margin-top: auto;
     width: fit-content;
     padding: 25px 45px;
     border-radius: 999px;
@@ -223,7 +224,7 @@ header{
 /*carte droite*/
 .cards-right {
     display: grid;
-    grid-template-rows: 260px 1fr;
+    grid-template-rows: 260px auto;
     gap: 30px;
 }
 
@@ -247,9 +248,13 @@ header{
 
 .stat-card{
     padding: 30px;
-    min-height: 320px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+
+    min-height: unset;
+    aspect-ratio: 1 / 1;
+    min-height: 260px;
 }
 
 .stat-blue{
@@ -279,4 +284,33 @@ header{
 .stat-card p {
     font-family: sans-serif;
     font-size: 18px;
+}
+
+/* Responsive */
+@media (max-width: 1024px){
+  .cards-section{
+    grid-template-columns: 1fr;
+  }
+  .cards-right{
+    grid-template-rows: 240px auto;
+  }
+}
+
+@media (max-width: 720px){
+  .cards-section{
+    padding: 20px 18px 60px;
+  }
+  .card-stats{
+    grid-template-columns: 1fr;
+  }
+  .card-large{
+    padding: 28px;
+    aspect-ratio: auto;
+  }
+  .card-large h2{
+    font-size: 40px;
+  }
+  .stat-card h3{
+    font-size: 58px;
+  }
 }
