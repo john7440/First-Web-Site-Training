@@ -366,6 +366,13 @@ header{
     transform: translateY(-1px);
 }
 
+.service-body{
+  padding: 14px 0 0;
+  max-width: 52ch;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
  /*---------------------------------------------------------------------------------------------*/
 /* Responsive */
 @media (max-width: 900px){
