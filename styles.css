@@ -329,6 +329,21 @@ header{
     color: #e6e6e6;
 }
 
+.service-item{
+  border-bottom: 2px solid rgba(255, 255, 255, 0.963);
+  padding: 18px 6px;
+}
+
+.service-item:first-child{
+  padding-top: 6px;
+}
+
+.service-item:last-child{
+  border-bottom: none;
+  padding-bottom: 6px;
+}
+
+
  /*---------------------------------------------------------------------------------------------*/
 /* Responsive */
 @media (max-width: 900px){
