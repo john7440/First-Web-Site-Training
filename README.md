@@ -1,13 +1,14 @@
-# ECO — Recycling for a Greener Future
+# ECO - Recycling for a Greener Future
 
-Site vitrine en HTML/CSS (avec un peu de JavaScript) pour une landing page sur le recyclage, construite à partir de sections type “Hero”, “Cards”, “Services/Accordéon” et “Our waste services”
+Site vitrine en HTML/CSS pour une landing page sur le recyclage, construite à partir de sections type “Hero”, “Cards”, “Services/Accordéon” et “Our waste services”
 Le projet est composé principalement d’un `index.html`, d’un `styles.css` et d’assets (images/icônes) dans un dossier `images/`
 
 ## Sommaire
--[Apreçu des sections](#aperçu-des-sections)
--[Prérequis](#prérequis)
--[Installation](#installation)
--[Structure](#structure)
+- [Apreçu des sections](#aperçu-des-sections) 
+- [Prérequis](#prérequis) 
+- [Installation](#installation) 
+- [Structure](#structure-du-projet)
+- [License](#license)
 
 ## Aperçu des sections
 - Header + navigation (version desktop + version mobile avec bouton “Menu”)
@@ -20,11 +21,14 @@ Le projet est composé principalement d’un `index.html`, d’un `styles.css` e
 - Un navigateur web récent (Chrome/Firefox/Edge/Safari)
 - Optionnel : VS Code + extension “Live Server” pour un rafraîchissement automatique
 
-## Installation / Lancement
-1. Télécharger/cloner le projet.
-2. Ouvrir `index.html` dans le navigateur, ou lancer un serveur local:
+## Installation
+1. Télécharger/cloner le projet
+   ```bash
+   git clone https://github.com/john7440/First-Web-Site-Training.git
+   ```
+3. Ouvrir `index.html` dans le navigateur, ou lancer un serveur local (recommandé):
    - VS Code → clic droit sur `index.html` → “Open with Live Server”
-   - 
+     
 ## Structure du projet
 
 ```txt
@@ -32,3 +36,12 @@ project/
 ├─ index.html
 ├─ styles.css
 └─ images/
+   ├─ eco-logo.png
+   ├─ hands.jpg
+   ├─ background1.jpg
+   ├─ background2.jpg
+   ├─ service-1.jpg ... service-5.jpg
+   ├─ icon-leaf.png(etc.)
+```
+## License
+Ce site est une reproduction partielle de https://nicepage.com/fr/website-templates/preview/transformer-les-dechets-6453796?device=desktop a des fins d'apprentissage de html et css 
