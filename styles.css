@@ -471,6 +471,31 @@ header{
 
 }
 
+.ws-card--cta{
+  background: var(--color-primary);
+  color: #fff;
+  padding: 34px 30px;
+  justify-content: flex-start;
+}
+
+.ws-cta-top{
+  font-family: "Unbounded", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.ws-cta-logo{
+  margin-top: 40px;
+}
+
+.ws-cta-logo img{
+  max-width: 260px;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
 
  /*---------------------------------------------------------------------------------------------*/
 /* Responsive */
