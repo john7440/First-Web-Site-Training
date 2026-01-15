@@ -457,6 +457,21 @@ header{
   color: #222;
 }
 
+.ws-media{
+  margin-top: auto;
+}
+
+.ws-media img{
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  display: block;
+  border-top-left-radius: 28px;
+  border-top-right-radius: 28px;
+
+}
+
+
  /*---------------------------------------------------------------------------------------------*/
 /* Responsive */
 @media (max-width: 900px){
