@@ -1,6 +1,6 @@
 # ECO - Recycling for a Greener Future
 
-Site vitrine en HTML/CSS pour une landing page sur le recyclage, construite à partir de sections type “Hero”, “Cards”, “Services/Accordéon” et “Our waste services”
+Site vitrine en HTML/CSS pour une landing page (responsive) sur le recyclage, construite à partir de sections type “Hero”, “Cards”, “Services/Accordéon”.
 Le projet est composé principalement d’un `index.html`, d’un `styles.css` et d’assets (images/icônes) dans un dossier `images/`
 
 ## Sommaire
@@ -8,7 +8,9 @@ Le projet est composé principalement d’un `index.html`, d’un `styles.css` e
 - [Prérequis](#prérequis) 
 - [Installation](#installation) 
 - [Structure](#structure-du-projet)
+- [Crédits](#crédits)
 - [License](#license)
+  
 
 ## Aperçu des sections
 - Header + navigation (version desktop + version mobile avec bouton “Menu”)
@@ -16,6 +18,7 @@ Le projet est composé principalement d’un `index.html`, d’un `styles.css` e
 - Section “Cards” (grande carte + image + stats)
 - Section “Sustainable Waste Management” (accordéon + image)
 - Section “Our waste services” (grille de 6 cartes, dont une carte “CTA”)
+- Section "Transforming waste into resources"
 
 ## Prérequis
 - Un navigateur web récent (Chrome/Firefox/Edge/Safari)
@@ -43,5 +46,12 @@ project/
    ├─ service-1.jpg ... service-5.jpg
    ├─ icon-leaf.png(etc.)
 ```
+## Crédits
+- Polices : Google Fonts (Roboto, Unbounded)
+  
 ## License
 Ce site est une reproduction partielle de https://nicepage.com/fr/website-templates/preview/transformer-les-dechets-6453796?device=desktop a des fins d'apprentissage de html et css 
+
+
+
+
