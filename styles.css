@@ -395,6 +395,23 @@ header{
   display: block;
 }
 
+.waste-services {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 40px 90px;
+}
+
+.ws-title{
+    font-family: "Unbounded", sans-serif;
+    font-size: clamp(2rem, 4vw, 3.2rem);
+    text-align: center;
+    margin-bottom: 40px;
+    color:  black;
+    font-weight: 700;
+
+}
+
+
  /*---------------------------------------------------------------------------------------------*/
 /* Responsive */
 @media (max-width: 900px){
