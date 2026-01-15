@@ -531,6 +531,24 @@ header{
     align-items: start;
 }
 
+.ressources-title{
+  font-family: "Unbounded", sans-serif;
+  font-weight: 800;
+  font-size: clamp(2.2rem, 4.5vw, 3.6rem);
+  line-height: 1.05;
+  color: #111;
+  margin-bottom: 16px;
+}
+
+.resources-text{
+  max-width: 52ch;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #111;
+  opacity: .85;
+  margin-bottom: 26px;
+}
+
 
 /* -------------------------------------------------Responsive -------------------------*/
 @media (max-width: 900px){
