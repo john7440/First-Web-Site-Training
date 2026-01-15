@@ -581,6 +581,21 @@ header{
     align-items: start;
 }
 
+.feature-icon{
+  width: 81px;
+  height: 81px;
+  border-radius: 12px;
+  background: #fff;
+  display: grid;
+  place-items: center;
+}
+
+.feature-icon img{
+  width: 49px;
+  height: 49px;
+  display: block;
+}
+
 
 /* -------------------------------------------------Responsive -------------------------*/
 @media (max-width: 900px){
