@@ -427,6 +427,35 @@ header{
     gap: 30px;
 }
 
+.ws-card{
+    background: #efefef;
+    border-radius: 40px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.ws-top {
+    padding: 34px 30px 24px;
+    display: grid;
+    justify-items: center;
+    gap: 14px;
+    text-align: center;
+}
+
+.ws-icon {
+    width: 64px;
+    height: 64px;
+}
+
+.ws-name{
+  font-family: "Unbounded", sans-serif;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.2;
+  color: #222;
+}
 
  /*---------------------------------------------------------------------------------------------*/
 /* Responsive */
