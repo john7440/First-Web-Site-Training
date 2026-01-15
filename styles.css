@@ -514,6 +514,23 @@ header{
     background-color: #baa988;
 }
 
+/*--------------------------------------ressources section-------------------------------*/
+
+.ressources{
+    background: var(--color-secondary);
+    padding: 80px 0;
+}
+
+.ressources-inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: start;
+}
+
 
 /* -------------------------------------------------Responsive -------------------------*/
 @media (max-width: 900px){
@@ -607,7 +624,6 @@ header{
     min-height: 320px;
   }
 }
-
 
 @media (max-width: 720px){
   .cards-section{
