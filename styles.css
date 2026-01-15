@@ -567,6 +567,20 @@ header{
     background: #678aab ;
 }
 
+.ressources-right{
+    position: relative;
+    display: grid;
+    gap: 24px;
+    padding-right: 40px;
+}
+
+.feature {
+    display: grid;
+    grid-template-columns: 64px 1fr;
+    gap: 16px;
+    align-items: start;
+}
+
 
 /* -------------------------------------------------Responsive -------------------------*/
 @media (max-width: 900px){
