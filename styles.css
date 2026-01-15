@@ -549,6 +549,24 @@ header{
   margin-bottom: 26px;
 }
 
+.ressources-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  padding: 16px 34px;
+  border-radius: 999px;
+  background: var(--color-primary);
+  color: #fff;
+  text-decoration: none;
+  font-family: "Unbounded", sans-serif;
+  font-weight: 600;
+}
+
+.ressources-btn:hover{
+    background: #678aab ;
+}
+
 
 /* -------------------------------------------------Responsive -------------------------*/
 @media (max-width: 900px){
