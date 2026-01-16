@@ -83,8 +83,7 @@ header{
 }
 
 .nav-toggle:hover{
-    color: #eee;
-    background-color: #6f95b8;
+    background-color: #678bad;
 }
 
 .btn-contact {
@@ -125,7 +124,6 @@ header{
     line-height: 1.1;
     color: black;
     font-size: clamp(4.5rem, 5vw, 2.4rem);
-    display: table;
     text-align: left;
     width: auto;
     height: auto;
@@ -266,8 +264,6 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
-    min-height: unset;
     aspect-ratio: 1 / 1;
     min-height: 260px;
 }
@@ -332,7 +328,7 @@ header{
     background: #b89e9f;
     border-radius: 40px;
     padding: 26px 26px;
-    color: #e6e6e6;
+    color: #dad4d4; 
     overflow: hidden;
 }
 
