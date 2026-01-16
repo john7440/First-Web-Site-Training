@@ -370,10 +370,15 @@ header{
 }
 
 .service-title::after{
-    content: "↗";
-    font-size: 25px;
-    opacity: .9;
+    content: "";
+    width: 22px;
+    height: 22px;
+    background-image: url("images/fleche.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
     transform: translateY(-1px);
+    flex: 0 0 auto;
 }
 
 .service-body{
