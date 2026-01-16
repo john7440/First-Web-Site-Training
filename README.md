@@ -20,6 +20,8 @@ Le projet est composé principalement d’un `index.html`, d’un `styles.css` e
 - Section “Our waste services” (grille de 6 cartes, dont une carte “CTA”)
 - Section "Transforming waste into resources"
 - Section "Partners"
+- Section "Social links"
+- Footer
 
 ## Prérequis
 - Un navigateur web récent (Chrome/Firefox/Edge/Safari)
@@ -52,6 +54,7 @@ project/
   
 ## License
 Ce site est une reproduction partielle de https://nicepage.com/fr/website-templates/preview/transformer-les-dechets-6453796?device=desktop a des fins d'apprentissage de html et css 
+
 
 
 
