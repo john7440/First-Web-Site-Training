@@ -124,8 +124,7 @@ header{
     font-weight: 400;
     line-height: 1.1;
     color: black;
-    font-size: clamp(2.4rem, 5vw, 4.5rem);
-    max-width: 16ch;
+    font-size: clamp(4.5rem, 5vw, 2.4rem);
     display: table;
     text-align: left;
     width: auto;
@@ -184,9 +183,7 @@ header{
     padding: 30px;
     display: flex;
     flex-direction: column;
-    background:
-    linear-gradient(120deg, rgba(47, 53, 57, 0.351), rgba(33, 38, 40, 0)),
-    url("images/background1.jpg");
+    background: url("images/background1.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -669,7 +666,32 @@ header{
     display: block;
 }
 
+/*--------------------------------------footer------------------------------*/
+.site-footer {
+    background: #ffffff;
+    border-top: 1px solid #e6e6e6;
+}
 
+.footer-inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.footer-left{
+    display: grid;
+    gap: 18px;
+}
+
+.footer-brand img{
+    height: 70px;
+    width: auto;
+    display: block;
+}
 
 /* -------------------------------------------------Responsive -------------------------*/
 @media (max-width: 900px){
@@ -705,6 +727,7 @@ header{
 
     .hero-content h1{
         display: block;
+        text-align: center;
         width: auto;
         height: auto;
         font-size: clamp(2.2rem, 7vw, 4rem);
