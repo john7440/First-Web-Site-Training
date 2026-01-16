@@ -618,15 +618,33 @@ header{
 
 /*-------------------------------our partners section----------------------------------*/
 .partners{
-    display: flex;
-    flex-direction: row;
     padding: 70px;
 }
 
-.partners h2 {
+.our-partners{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 24px;
+}
+
+.our-partners h2 {
     font-family: "Unbounded", sans-serif;
     font-weight: 400;
     color: #111;
+    margin-right: 50px;
+}
+
+.partners-img {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.partners-img img{
+    height:65px;
+    width: auto;
+    display: block;
 }
 
 
