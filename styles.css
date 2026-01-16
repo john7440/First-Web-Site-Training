@@ -781,5 +781,30 @@ header{
     .ws-grid{ 
         grid-template-columns: 1fr; 
     }
+
+    .partners{
+        padding: 30px 20px;
+    }
+
+    .our-partners{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .our-partners h2{
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+
+    .partners-img {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 24px;
+    }
+
+    .partners-img img{
+        height: 42px;
+    }
 }
 
