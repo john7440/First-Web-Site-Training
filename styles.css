@@ -693,6 +693,29 @@ header{
     display: block;
 }
 
+.footer-nav {
+    display: flex;
+    gap: 44px;
+    flex-wrap: wrap;
+}
+
+.footer-nav a{
+    text-decoration: none;
+    color: #111;
+}
+
+.footer-right {
+    text-align: right;
+    display: grid;
+    gap: 18px;
+    justify-items: end;
+}
+
+.footer-social img{
+    width: 48px;
+    height: 48px;
+    display: block;
+}
 /* -------------------------------------------------Responsive -------------------------*/
 @media (max-width: 900px){
     .navbar{
