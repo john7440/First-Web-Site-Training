@@ -9,7 +9,7 @@ Le projet est composé principalement d’un `index.html`, d’un `styles.css` e
 - [Installation](#installation) 
 - [Structure](#structure-du-projet)
 - [Crédits](#crédits)
-- [License](#license)
+- [Licence](#licence)
   
 
 ## Aperçu des sections
@@ -52,8 +52,9 @@ project/
 ## Crédits
 - Polices : Google Fonts (Roboto, Unbounded)
   
-## License
-Ce site est une reproduction partielle de https://nicepage.com/fr/website-templates/preview/transformer-les-dechets-6453796?device=desktop a des fins d'apprentissage de html et css 
+## Licence
+Ce site est une reproduction partielle (landing page de la partie home) de https://nicepage.com/fr/website-templates/preview/transformer-les-dechets-6453796?device=desktop a des fins d'apprentissage personnel de html et css 
+
 
 
 
